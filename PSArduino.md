@@ -1,6 +1,8 @@
 # PSArduino
-### Integrantes 
-|Prieto Estefania| B Ivan | Gonzalez Rodrigo |
+
+### Integrantes
+
+|Prieto Estefania| Belleil Ivan | Gonzalez Rodrigo |
 | :--------: | :--------: | :--------: |
 | [![](https://avatars0.githubusercontent.com/u/44297919?s=64&v=4)](https://github.com/EstefiCamba)     | [![](https://avatars2.githubusercontent.com/u/12256875?s=64&v=4)](https://github.com/ivigbe)     | [![](https://avatars2.githubusercontent.com/u/8609216?s=64&v=4)](https://github.com/RoAriel)     |
 
@@ -9,18 +11,20 @@
 
 
 ### El filtro
+
 Este tipo de filtro utiliza la acción mecánica del paso por la arena y la grava para remover así los elementos que enturbian el agua y en combinación con el carbón y bacterias benignas también reducen la carga bacteriológica de patógenos que podrían causar daños a nuestra salud.
 
-##### Materiales para hacer el filtro:
+##### Materiales para hacer el filtro
+
 - Un contenedor plástico de aproximadamente un metro de altura.
-- Grava.
-- Arena fina y limpia.
-- Piedras pequeñas.
-- Piedras medianas.
-- Carbón activado.
-- Agodon
-- ___COMPLETAR PRECIOS___
+- Grava fina  `$20/kg`.
+- Grava gruesa  `$17/kg`.
+- Arena fina y limpia  `$80/5kg`.
+- Carbón activado  `$420/kg`.
+- Agodón  `$60`.
+
 #### Materiales para entubado y soporte
+
 - Manguera.
 - Abrazadera.
 - Recipientes contenedores para agua (filtrada y sin filtrar).
@@ -29,6 +33,7 @@ Este tipo de filtro utiliza la acción mecánica del paso por la arena y la grav
 - Tornillos.
 
 ### Materiales electrónicos
+
 La mayor parte de los materiales fueron dados por las UNQ para este proyecto, dónanos o eran propios.
 - [Aruino Mega 2560.](https://articulo.mercadolibre.com.ar/MLA-619909192-arduino-mega-2560-r3-16au-cable-usb-domotica-y-robotica-_JM?quantity=1)
 - [Módulo Relé.](https://articulo.mercadolibre.com.ar/MLA-706340414-modulo-relay-rele-de-1-canal-5v-10a-arduino-pic-avr-robotica-_JM?quantity=1) 
@@ -44,20 +49,21 @@ La mayor parte de los materiales fueron dados por las UNQ para este proyecto, d�
 - [Desafios tecnologicos: servo](https://educacion.camba.coop/course/view.php?id=2)
 - [Filtros de agua](https://www.postubo.com/foro/t/comunidad/discusiones-generales/filtros-de-agua-nos-estan-timando/?page=2)
 
-Durante el proceso de investigación que tuvimos como equipo fuimos probando distintas formas de abrir/cerrar una llave de agua, se probaron motores servo y paso a paso por eso integramos en el informe información,  pudimos integrar a ambos con el módulo Bluetooth. Finalmente se resolvió realizar el proyecto de con una electroválvula.
+Durante el proceso de investigación que tuvimos como equipo fuimos probando distintas formas de abrir/cerrar una llave de agua, se probaron motores servo y paso a paso por eso integramos en el informe información,  pudimos integrar a ambos con el módulo Bluetooth. Finalmente se resolvió realizar el proyecto con una electroválvula.
 
 ### Código
+
 #### ___Circuitos simples___
+
 -  [Módulo Bluetooth](https://etherpad.net/p/modulo-bluetooth)
 ![](https://i.imgur.com/wGtpWMs.png)
 
 - [Módulo Relé](https://etherpad.net/p/rele-electro)![](https://i.imgur.com/4K36lyM.png)
 
+### Código final
 
-
-### Código final:
 - [Control Electrovalvula](https://etherpad.net/p/control_electrovalvula)![](https://i.imgur.com/IMZSCwX.png)
 
-### Todo:
+### TODO
 - Realizar conexión con un módulo de proximidad para medir que el agua no sobrepase la capacidad del filtro o del contenedor de agua filtrada y así enviar una señal para cerrar la electroválvula.
 - Enviar notificación por protocolos según los distintos estados de los contenedores.
