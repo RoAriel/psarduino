@@ -74,6 +74,6 @@ Durante el proceso de investigación que tuvimos como equipo fuimos probando dis
 
 - [Control Electrovalvula](https://etherpad.net/p/control_electrovalvula)![](https://i.imgur.com/IMZSCwX.png)
 
-### TODO
+### TO-DO
 - Realizar conexión con un módulo de proximidad para medir que el agua no sobrepase la capacidad del filtro o del contenedor de agua filtrada y así enviar una señal para cerrar la electroválvula.
 - Enviar notificación por protocolos según los distintos estados de los contenedores.
