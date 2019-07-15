@@ -51,6 +51,12 @@ La mayor parte de los materiales fueron dados por las UNQ para este proyecto, d�
 - Fuente de 12v.
 - 7 cables hembra-macho
 - 2 cables mcho-macho
+ 
+### Conexión con arduino de forma inalámbrica
+Un celular con Bluetooth que tenga instalada una Bluetooth Terminal, hay dos formas una libre y otra usando Google:
+- Instalando primero en el celular [F-Droid](https://f-droid.org/en/) e instalando la app [__Bluetooth Terminal__](https://f-droid.org/en/packages/ru.sash0k.bluetooth_terminal/)
+- Instalando desde [Play Store de Google](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US)
+
 
 ### Links a proyectos con partes importantes para el nuestro:
 
