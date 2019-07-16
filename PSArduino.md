@@ -79,6 +79,13 @@ Durante el proceso de investigación que tuvimos como equipo fuimos probando dis
 ### Código final
 
 - [Control Electrovalvula](https://etherpad.net/p/control_electrovalvula)![](https://i.imgur.com/IMZSCwX.png)
+### Imagenes del proyecto finalizado
+
+
+| ![Estructura final](https://i.imgur.com/eZqt7GG.jpg) |![Arduino y módulos](https://i.imgur.com/L6ktwSm.jpg)|
+| -------- | -------- |
+| ![Electrovalvula](https://i.imgur.com/kwFY64l.jpg)   |  ![Filtro Natural](https://i.imgur.com/PevXa64.jpg) |
+|![Contenedor](https://i.imgur.com/opYY0rL.jpg)
 
 ### TO-DO
 - Realizar conexión con un módulo de proximidad para medir que el agua no sobrepase la capacidad del filtro o del contenedor de agua filtrada y así enviar una señal para cerrar la electroválvula.
